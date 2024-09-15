@@ -52,8 +52,8 @@ The dataset includes the following variables:
 - **Severity:** Severity of stress (e.g., mild, moderate, severe)
 - **Sleep Quality:** Quality of sleep reported (e.g., poor, fair, good)
 - **Mood:** Mood reported by the employee
-- **Heart Rate:** Average heart rate of the employee (bpm)
-- **Cortisol Level:** Cortisol level measurement
+- **Heart Rate:** Heart rate measurement (bpm)
+- **Cortisol Level:** Cortisol level measurement (µg/dL)
 - **Stress Level Score:** Calculated score representing the level of stress
 
 ## Methodology
@@ -158,7 +158,7 @@ Each question was addressed using descriptive statistics, visualizations, and st
 This project explored employee well-being by examining various symptoms and their impacts. The findings revealed that while mild and moderate stress are common, a significant portion of employees experiences severe stress. Heart rate patterns showed some monthly variations, with notable peaks and troughs, while cortisol levels displayed a typical mid-day rise. Emotional and physical symptoms were linked to varying heart rates, and stress duration influenced severity. The analysis also identified a subset of employees with elevated heart rates and poor sleep, highlighting a need for targeted wellness interventions. Overall, these insights suggest that tailored health programs addressing both stress and its physical impacts could significantly benefit employee well-being. 
 
 ## Additional Resources
-- You can find the SQL Queries used for data cleaning [here](https://github.com/Adeyemi012/Employee-Stress-and-Health-Analysis/blob/main/SQL%20Cleaning%20Scripts/TDI%20SQL%20Cleaning.sql). Download the tool above in order to explore query.
+- You can find the SQL Queries used for data cleaning [here](https://github.com/Adeyemi012/Employee-Stress-and-Health-Analysis/blob/main/SQL%20Cleaning%20Scripts/TDI%20SQL%20Cleaning.sql).
 
 - [Link to Cleaned Dataset](https://github.com/Adeyemi012/Employee-Stress-and-Health-Analysis/blob/main/Employee%20Stress%20and%20Health%20Dataset.xlsx)
 
