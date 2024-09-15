@@ -64,5 +64,51 @@ The data cleaning process involved several key steps using SQL:
 #### Column Renaming:
 - Renamed columns for clarity and consistency.
 
+#### Data Standardization:
+- Updated gender values: 'M' to 'Male' and 'F' to 'Female'.
+- Corrected data entries in the 'Physical Symptoms' column: 'stomach age' changed to 'stomach ache'.
+
+#### Removing Duplicates:
+- Eliminated duplicate records to ensure data accuracy.
+
+#### Handling Missing Data:
+- Updated missing values in the 'Stress Level Score' with the average to retain employee data.
+- Removed records with null values after updating.
+
+#### Data Concatenation:
+- Created a 'Full Name' column by concatenating 'Last Name' and 'First Name' using a SQL view to ensure data permanence
+
+#### Adding New Columns:
+- Added columns for 'Age', 'Age Group', and 'Stress Duration (in months)' by modifying the SQL view. 
+
+### Exploratory Data Analysis (EDA)
+
+After cleaning the data in SQL, it was exported to Excel for analysis and dashboard creation. In Excel, the following steps were carried out:
+
+Descriptive Statistics: Calculated basic statistics and analyzed distributions.
+
+Visualization: Created charts and graphs to visualize trends and patterns.
+
+Dashboard Creation: Developed interactive dashboards to present key findings effectively.
+
+### Statistical Analysis
+
+For statistical analysis, the following methods were used:
+
+Descriptive Statistics: Generated summary statistics for various variables, including stress severity and heart rate, to quantify key metrics.
+
+Comparative Analysis: Compared stress severity across different stress durations (0-3 months vs. 4-6 months) to assess how stress levels change over time.
+
+Trend Analysis: Analyzed cortisol levels by time of day to identify fluctuations and deviations from typical patterns.
+
+Categorical Analysis: Examined emotional and physical symptoms in relation to heart rate to understand the impact of different symptoms on physiological responses.
+
+### Tools Used
+
+Microsoft SQL Server (SMSS): Used for data cleaning and preprocessing. [Download Server Here](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) and [SMSS](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16&redirectedfrom=MSDN)
+
+Microsoft Excel: Used for analysis, visualization, and creating interactive dashboards. [Download here](https://www.microsoft.com/en-us/microsoft-365/excel)
+
+
 
 
