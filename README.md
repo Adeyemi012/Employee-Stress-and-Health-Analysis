@@ -109,6 +109,22 @@ Microsoft SQL Server (SMSS): Used for data cleaning and preprocessing. [Download
 
 Microsoft Excel: Used for analysis, visualization, and creating interactive dashboards. [Download here](https://www.microsoft.com/en-us/microsoft-365/excel)
 
+## Analysis
+### Analysis Questions
+
+- How is stress severity distributed among the employees?
+- What are the monthly patterns of heart rates among the employees?
+- How do emotional and physical symptoms correlate with heart rate?
+- What are the patterns of cortisol levels throughout the day?
+- How does the duration of stress influence its severity?
+- What are the characteristics of employees with both elevated heart rates and poor sleep quality?
+
+### Approach
+Each question was addressed using descriptive statistics, visualizations, and statistical tests to determine significance and identify key trends.
+
+## Dashboard Overview
+
+
 
 
 
