@@ -2,12 +2,12 @@
 
 ## Abstract
 
-This project analyzes stress levels, heart rates, cortisol patterns, and elevated risk profiles among 5,000 employees to identify potential health risks and areas for intervention. The analysis covers the distribution of stress severity, heart rate patterns across months, emotional and physical symptoms, cortisol levels throughout the day, and the relationship between stress duration and severity. The findings reveal key stress factors, elevated risk profiles, and their impact on employee health, leading to recommendations for targeted wellness programs.
+This project analyzes stress levels, heart rates, and elevated risk profiles among 5,000 employees to identify potential health risks and areas for intervention. The analysis covers the distribution of stress severity, heart rate patterns across months, emotional and physical symptoms, and the relationship between stress duration and severity. The findings reveal key stress factors, elevated risk profiles, and their impact on employee health, leading to recommendations for targeted wellness programs.
 
 ## Introduction
 ### Context
 
-In today’s fast-paced work environment, employee well-being is a crucial factor in maintaining productivity and overall workplace morale. With increasing workloads and external pressures, understanding the health implications, particularly related to stress, has become more important than ever. This project seeks to shed light on how stress, heart rates, and cortisol levels are affecting employees, providing insights that can help improve workplace health initiatives.
+In today’s fast-paced work environment, employee well-being is a crucial factor in maintaining productivity and overall workplace morale. With increasing workloads and external pressures, understanding the health implications, particularly related to stress, has become more important than ever. This project seeks to shed light on how stress, and heart rates are affecting employees, providing insights that can help improve workplace health initiatives.
 
 ### Problem Statement
 
@@ -19,9 +19,8 @@ The primary objectives of this analysis are:
 1. To determine the distribution of stress severity among employees.
 2. To analyze heart rate patterns across different months.
 3. To examine the prevalence and impact of emotional and physical symptoms on employees.
-4. To explore the daily fluctuations of cortisol levels.
-5. To assess the relationship between stress duration and severity.
-6. To identify employees with elevated heart rates and poor sleep quality and the associated risk factors.
+4. To assess the relationship between stress duration and severity.
+5. To identify employees with elevated heart rates and poor sleep quality and the associated risk factors.
 
 ## Data Description
 ### Data Sources
@@ -83,9 +82,7 @@ The data cleaning process involved several key steps using SQL:
 
 ### Exploratory Data Analysis (EDA)
 
-After cleaning the data in SQL, it was exported to Excel for analysis and dashboard creation. In Excel, the following steps were carried out:
-
-**Descriptive Statistics:** Calculated basic statistics and analyzed distributions.
+After cleaning the data in SQL, it was exported to Google Looker Studio for analysis and dashboard creation. In Google Looker Studio, the following steps were carried out:
 
 **Visualization:** Created charts and graphs to visualize trends and patterns.
 
@@ -99,15 +96,13 @@ For statistical analysis, the following methods were used:
 
 **Comparative Analysis:** Compared stress severity across different stress durations (0-3 months vs. 4-6 months) to assess how stress levels change over time.
 
-**Trend Analysis:** Analyzed cortisol levels by time of day to identify fluctuations and deviations from typical patterns.
-
 **Categorical Analysis:** Examined emotional and physical symptoms in relation to heart rate to understand the impact of different symptoms on physiological responses.
 
 ### Tools Used
 
 **Microsoft SQL Server (SMSS):** Used for data cleaning and preprocessing. [Download Server Here](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) and [SMSS](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16&redirectedfrom=MSDN)
 
-**Microsoft Excel:** Used for analysis, visualization, and creating interactive dashboards. [Download here](https://www.microsoft.com/en-us/microsoft-365/excel)
+**Google Looker Studio:** Used for analysis, visualization, and creating interactive dashboards. [Download here](https://lookerstudio.google.com/)
 
 ## Analysis
 ### Analysis Questions
@@ -115,7 +110,6 @@ For statistical analysis, the following methods were used:
 - How is stress severity distributed among the employees?
 - What are the monthly patterns of heart rates among the employees?
 - How do emotional and physical symptoms correlate with heart rate?
-- What are the patterns of cortisol levels throughout the day?
 - How does the duration of stress influence its severity?
 - What are the characteristics of employees with both elevated heart rates and poor sleep quality?
 
@@ -135,8 +129,6 @@ Each question was addressed using descriptive statistics, visualizations, and st
 
 **Stress Symptoms Analysis (Physical Symptoms):** Among the physical symptoms analyzed, fatigue is the most common, affecting 1,254 employees with an average heart rate of 92 bpm. Back pain also affects a significant number of employees (1,172) with a similar average heart rate of 92 bpm. Headache and insomnia follow, impacting 809 and 947 employees, respectively, both associated with a higher average heart rate of 93 bpm. Arthritis and arthritis pain are less common, with 14 and 28 affected individuals and lower average heart rates of 83 and 86 bpm. Notably, stomach ache is linked to the highest average heart rate of 100 bpm, though it affects only 21 employees. This suggests that while fatigue and back pain are prevalent, conditions like stomach ache may have a more intense impact on heart rate.
 
-**Cortisol Levels by Time of Day:** Cortisol levels generally decrease by 8 AM, rise to a peak around 12 PM, drop again by 2 PM, and then rise slightly from 3 PM to 7 PM. This pattern shows a midday peak with fluctuations throughout the day, which may differ from the typical cortisol rhythm that peaks in the early morning.
-
 **Severity by Stress Duration:** For the 0-3 month stress duration category, mild stress is the most common, affecting 1,020 employees, followed by moderate stress with 987 employees, and severe stress with 519 employees. In the 4-6 month duration category, moderate stress is the predominant condition, impacting 1,016 employees, while mild stress affects 959 employees, and severe stress is the least common with 499 employees. This suggests that stress severity varies with duration, with moderate stress becoming more prevalent as the duration increases, while mild stress is more common in the shorter duration period.
 
 **Elevated Risk Profiles:** Analysis identified a subset of employees experiencing both elevated heart rates and poor sleep quality. Among these individuals, a significant portion faces financial issues, followed by work-related stress and family issues. This highlights a potential link between high heart rates, poor sleep, and specific stress sources, indicating a need for targeted wellness interventions and support for affected employees.
@@ -147,8 +139,6 @@ Each question was addressed using descriptive statistics, visualizations, and st
 **Monthly Heart Rate Patterns:** Review and analyze factors that could cause monthly changes in heart rate, such as workload or seasonal influences, and adjust health programs to manage these variations better.
 
 **Stress Symptoms Analysis:** Increase support for anxiety and depression with more counseling options. Address anger and loneliness with targeted programs. For Physical Symptoms focus on reducing fatigue and back pain through wellness programs and better work setups, and provide extra support for conditions like stomach aches that significantly impact heart rate. 
-
-**Cortisol Levels by Time of Day:** Investigate potential factors causing the midday peak in cortisol levels and the fluctuations throughout the day. Consider adjusting work schedules or wellness programs to align with natural cortisol rhythms and address any underlying issues contributing to these variations.
 
 **Severity by Stress Duration:** Focus on supporting employees with moderate stress, particularly those with 4-6 months of stress. Address mild stress early to prevent escalation. Adjust support based on how long employees have been stressed.
 
