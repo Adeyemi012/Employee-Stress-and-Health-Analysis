@@ -116,9 +116,9 @@ For statistical analysis, the following methods were used:
 ### Approach
 Each question was addressed using descriptive statistics, visualizations, and statistical tests to determine significance and identify key trends.
 
-## Dashboard Overview
+## Dashboard Overview - Interact [here](https://lookerstudio.google.com/embed/reporting/eb8ea519-8085-4873-9bb1-8802d32e98de/page/chgcE)
 
-![](https://github.com/Adeyemi012/Employee-Stress-and-Health-Analysis/blob/main/Stress%20Management%20Dashboard.png)
+![](https://github.com/Adeyemi012/Employee-Stress-and-Health-Analysis/blob/main/Untitled%20design%20(1).png)
 
 ## Insights
 **Severity Distribution:** In the analysis of stress severity among 5,000 employees, 39.58% are experiencing mild stress, 40.06% are dealing with moderate stress, and 20.36% are facing severe stress. This distribution highlights that while most employees are managing mild to moderate levels of stress, a significant portion is under severe stress, which may require targeted interventions.
