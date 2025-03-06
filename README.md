@@ -116,7 +116,7 @@ For statistical analysis, the following methods were used:
 ### Approach
 Each question was addressed using descriptive statistics, visualizations, and statistical tests to determine significance and identify key trends.
 
-## Dashboard Overview - Interact [here](https://lookerstudio.google.com/embed/reporting/eb8ea519-8085-4873-9bb1-8802d32e98de/page/chgcE)
+## Dashboard Overview - Interact [here](https://lookerstudio.google.com/reporting/eb8ea519-8085-4873-9bb1-8802d32e98de)
 
 ![](https://github.com/Adeyemi012/Employee-Stress-and-Health-Analysis/blob/main/Untitled%20design%20(1).png)
 
